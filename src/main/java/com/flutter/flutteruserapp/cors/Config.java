@@ -16,7 +16,7 @@ public class Config {
     @Bean
     public CorsFilter corsFilter() {
         CorsConfiguration config = new CorsConfiguration();
-        config.setAllowedOrigins(List.of("http://localhost:57948")); // Allow only your frontend
+        config.setAllowedOrigins(List.of("http://localhost:56364")); // Allow only your frontend
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
         config.setAllowCredentials(true); // Allow cookies/authentication
